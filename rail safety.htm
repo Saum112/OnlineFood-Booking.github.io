@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">	
+
+<title> ROAD ACCIDENT SAFETY SYSTEM</title>
+<style>
+html{
+overflow-y:scroll;
+}
+body{
+margin:0;
+padding:0;
+font-size:16px;
+font-family:sans-serif;
+color:white;
+background-color:black;
+}
+.header{
+background:red;
+color:white;
+font-size:30px;
+font-family:aerial;
+font-weight:bolder;
+text-align:center;
+position:fixed;
+top:0px;
+left:0px;
+width:1400px;
+height:35px;
+}
+#login-box{
+position:relative;
+margin:5%auto;
+width:700px;
+}
+
+
+.left-box{
+position:absolute;
+top:0;
+left:0;
+box-sizing:border-box;
+padding:20px;
+width:40px;
+height:60px;
+}
+input[type="text"]
+{ display:block;
+ box-sizing:border-box;
+background-color:black;
+margin-bottom:20px;
+ padding:4px;
+width:280px;
+color:white;
+height:40px;
+border:none;
+outline:none;
+border-bottom:1px solid red;
+font-family:sans-serif;
+font-weight:100px;
+font-size:15px;
+transition:0.2s ease;
+}
+
+input[type="password"]
+{ display:block;
+ box-sizing:border-box;
+background-color:black;
+margin-bottom:20px;
+ padding:4px;
+width:280px;
+color:white;
+height:40px;
+border:none;
+outline:none;
+border-bottom:1px solid red;
+font-family:sans-serif;
+font-weight:100px;
+font-size:15px;
+transition:0.2s ease;
+}
+
+
+
+
+
+.register{
+border:12px solid transparent;
+width:200px;
+ border-radius:24px;
+color:white;
+background:red;
+position:relative;;
+
+}
+.register:hover{
+background:#ff5722;
+transition:0.2s ease;
+}
+.right-box{
+ position:absolute;
+top:50px;
+right:0;
+box-sizing:border-box;
+padding:40px;
+width:300px;
+height:380px;
+background-image:url("");
+background-size:cover;
+background-position:center;
+}
+.right-box .signinwith{
+display:block;
+margin-bottom:4opx;
+font-size:28px;
+color:#fff;
+text-align:center;
+text-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+button.social{
+margin-bottom:20px;
+width:220px;
+height:36px;
+border:none;
+border-radius:2px;
+color:#fff;
+font=family:sana-serif;
+font-weight:bolder;
+transition:0.2s;
+cursor:pointer;
+}
+.facebook{
+background:green;
+}
+.twitter{
+background:yellow;
+}
+.google{
+background:red;
+}
+::-ms-input-placeholder{
+color:white;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+ REGISTER
+<div id="login-box">
+<div class="left-box">
+<div>
+<i class="fas fa-user-alt"></i>
+<input type="text" name="" placeholder="full name" value=""/>
+</div>
+<div>
+<i class="fas fa-envelope"></i>
+<input type="text" name="" placeholder="email address"  value=""/>
+</div>
+<div>
+<i class="fas fa-phone-alt"></i>
+<input type="text" name="" placeholder="phone number"  value=""/>
+</div>
+<div>
+<i class="fas fa-key"></i>
+<input type="password" name="" placeholder=" password"  value=""/>
+</div>
+<i class="fas fa-key"></i>
+<input type="password" name="" placeholder="confirm password"  value=""/>
+<button class="register"><a href="acci.htm">REGISTER</a></button>
+
+</div>
+<div class="right-box">
+<span class="signinwith">sign in with<br>social network
+</span>
+<i class="fab fa-facebook-f"></i>
+<button class="social facebook">log in with facebook</button>
+<i class="fab fa-twitter"></i>
+<button class="social twitter">log in with twitter</button>
+<i class="fab fa-google"></i>
+<button class="social google">log in with google</button>
+</div>
+</div>
+</body>
+</html>
